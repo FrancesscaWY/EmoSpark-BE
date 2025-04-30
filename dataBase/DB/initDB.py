@@ -3,7 +3,7 @@ import sqlite3
 def initDB(db_path="emotion_system.db"):
     try:
         # 创建数据库连接
-        conn = sqlite3.connect(db_path)
+        conn = sqlite3.connect('./DB/emotion_system.db')
         cursor = conn.cursor()
 
         print("数据库连接成功！")
