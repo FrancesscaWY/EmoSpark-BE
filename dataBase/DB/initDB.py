@@ -7,7 +7,6 @@ def initDB(db_path="emotion_system.db"):
         cursor = conn.cursor()
 
         print("数据库连接成功！")
-
         # 创建 Users 表
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS Users (
