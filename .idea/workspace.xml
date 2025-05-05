@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06b65ea-de3f-49b7-8add-f552939032cf" name="Changes" comment="完成数据库初始化">
+    <list default="true" id="c06b65ea-de3f-49b7-8add-f552939032cf" name="Changes" comment="chore. test">
+      <change beforePath="$PROJECT_DIR$/.idea/emo-spark-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emo-spark-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/initDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/DB/initDB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,15 +125,43 @@
       <option name="project" value="LOCAL" />
       <updated>1745340075662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成数据库初始化">
+      <option name="closed" value="true" />
+      <created>1746019730993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746019730993</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore. test">
+      <option name="closed" value="true" />
+      <created>1746449528324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746449528324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-init EmoSpark-BE" />
     <MESSAGE value="完成数据库初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成数据库初始化" />
+    <MESSAGE value="chore. test" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore. test" />
   </component>
 </project>
