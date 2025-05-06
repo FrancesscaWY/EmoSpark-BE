@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06b65ea-de3f-49b7-8add-f552939032cf" name="Changes" comment="完成数据库初始化">
+      <change afterPath="$PROJECT_DIR$/modules/text/baidu_emotion_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/emo-spark-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emo-spark-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/initDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/DB/initDB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,6 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2w24f5TDgZphhK8SqE2GlK0FdpQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +45,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dataBase&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,17 +64,18 @@
   <component name="RunManager" selected="Python.initDB">
     <configuration name="initDB" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="emo-spark-backend" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (project)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataBase" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\互联网+++\dataBase\DB\initDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -101,8 +104,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
-        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -115,6 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1745226434766</updated>
       <workItem from="1745226436091" duration="332000" />
+      <workItem from="1746494754851" duration="2456000" />
+      <workItem from="1746525632106" duration="4238000" />
     </task>
     <task id="LOCAL-00001" summary="完成数据库初始化">
       <option name="closed" value="true" />
