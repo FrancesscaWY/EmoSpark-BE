@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06b65ea-de3f-49b7-8add-f552939032cf" name="Changes" comment="-init EmoSpark-BE">
-      <change afterPath="$PROJECT_DIR$/API/demoAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAPI/demoTest.py" afterDir="false" />
+    <list default="true" id="c06b65ea-de3f-49b7-8add-f552939032cf" name="Changes" comment="-add API test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/initDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/initDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/mixed/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mixed/mixed_recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAPI/demoTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAPI/demoTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "FastAPI.emo-spark-backend.executor": "Run",
-    "Python.demoAPI.executor": "Run",
-    "Python.demoTest.executor": "Run",
-    "Python.initDB.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "mixed",
-    "last_opened_file_path": "/home/francessca/OtherProjects/webs/EmoSpark/emo-spark-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;FastAPI.emo-spark-backend.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demoAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.initDB.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mixed&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/francessca/OtherProjects/webs/EmoSpark/emo-spark-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules" />
@@ -113,12 +115,25 @@
       <workItem from="1745327528670" duration="1325000" />
       <workItem from="1745372717447" duration="498000" />
       <workItem from="1745458027584" duration="25000" />
-      <workItem from="1746103285482" duration="668000" />
+      <workItem from="1746103285482" duration="1972000" />
     </task>
+    <task id="LOCAL-00001" summary="-add API test">
+      <option name="closed" value="true" />
+      <created>1746104205083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746104205084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-add API test" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add API test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/emo_spark_backend$text_recognition.coverage" NAME="text_recognition Coverage Results" MODIFIED="1745226969921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/text" />

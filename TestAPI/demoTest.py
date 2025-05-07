@@ -2,7 +2,7 @@ import requests
 
 # 发送测试数据
 test_data = {
-    "value": 10  # 你可以修改这个值进行其他测试
+    "value": 7  # 你可以修改这个值进行其他测试
 }
 
 # 确保 FastAPI 后端在 http://127.0.0.1:8000 上运行
