@@ -1,8 +1,8 @@
 import requests
 
 # 配置区（必须修改！）===============================================
-API_KEY = "替换为你的百度API Key"  # 从百度智能云控制台获取
-SECRET_KEY = "替换为你的百度Secret Key"
+API_KEY = "i9bkgztwIm4EjytCTcqizHm8"  # 从百度智能云控制台获取
+SECRET_KEY = ("zSKa2rlTHLQY32LiNidWiag77Rt5UzfG")
 # ===============================================================
 
 # 初始化全局变量
