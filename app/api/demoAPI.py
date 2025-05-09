@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-
+from app.database import get_db_connection
 app = FastAPI()
 
 # 定义请求体格式
