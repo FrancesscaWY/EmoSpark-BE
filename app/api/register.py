@@ -47,7 +47,7 @@ class RegisterRequest(BaseModel):
     work_unit: Optional[str] = None
 
 # 检查账号是否已存在
-@router.post("/check_account")
+@router.get("/check_account")
 async def check_account(account: str):
     # 手动设置 CORS 响应头
     # response.headers["Access-Control-Allow-Origin"] = "http://localhost:3004"
@@ -147,7 +147,17 @@ async def login_user(data: LoginRequest):
 
         if user:
             if pwd_context.verify(password, user['password_hash']):
-                return JSONResponse(content={"success":True,"message":"登录成功"},status_code=200)
+                user_info = {
+                    "id": user["id"],
+                    "account": user["account"],
+                    "name": user["username"],
+                    "age": user["age"],
+                    "gender": user["gender"],
+                    "email": user["email"],
+                    "phone": user["phone"],
+                    "work_unit": user["work_unit"]
+                }
+                return JSONResponse(content={"success":True,"message":"登录成功","user":user_info},status_code=200)
             else:
                 return JSONResponse(content={"success":False,"message":"密码错误"},status_code=400)
         else:
