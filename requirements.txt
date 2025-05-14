@@ -26,3 +26,7 @@ uvicorn==0.34.2
 uvloop==0.21.0
 watchfiles==1.0.5
 websockets==15.0.1
+numpy==1.23.5
+# deepface==0.0.1
+# tensorflow==2.10.0
+

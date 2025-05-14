@@ -1,5 +1,4 @@
 import requests
-
 with open("0RZPD93P2SUQ.jpg", "rb") as f:
     image_data = f.read()
 

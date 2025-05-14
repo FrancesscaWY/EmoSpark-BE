@@ -1,5 +1,5 @@
 import requests
-
+import time
 # 配置区（必须修改！）===============================================
 API_KEY = "i9bkgztwIm4EjytCTcqizHm8"  # 从百度智能云控制台获取
 SECRET_KEY = ("zSKa2rlTHLQY32LiNidWiag77Rt5UzfG")
@@ -39,11 +39,12 @@ def analyze_emotion(text):
         get_access_token()
 
     try:
-        url = "https://aip.baidubce.com/rpc/2.0/nlp/v1/sentiment_classify"
+        url = f"https://aip.baidubce.com/rpc/2.0/nlp/v1/sentiment_classify?access_token={access_token}"
+        # url = "https://aip.baidubce.com/rpc/2.0/nlp/v1/sentiment_classify"
         headers = {"Content-Type": "application/json"}
         payload = {
-            "text": text[:1024],  # 遵守百度API文本长度限制
-            "access_token": access_token
+            "text": text[:1024]  # 遵守百度API文本长度限制
+            # "access_token": access_token
         }
         response = requests.post(url, headers=headers, json=payload, timeout=15)
         response.raise_for_status()  # 检查HTTP错误状态码
@@ -99,3 +100,4 @@ if __name__ == "__main__":
     for text in test_cases:
         print(f"文本：「{text}」")
         print(f"情绪：{detect_emotion(text)}\n")
+        time.sleep(1.5)  # 等待 1.5 秒再请求
