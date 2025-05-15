@@ -28,7 +28,7 @@ def analyze_emotion_from_image(image_data: bytes)->dict:
 
 if __name__ == "__main__":
     # 图像文件路径
-    image_path = '0RZPD93P2SUQ.jpg'
+    image_path = '/home/francessca/OtherProjects/webs/EmoSpark/emo-spark-backend/app/modules/image/0RZPD93P2SUQ.jpg'
     try:
         # 以二进制模式读取图像文件
         with open(image_path,'rb') as img_file:
